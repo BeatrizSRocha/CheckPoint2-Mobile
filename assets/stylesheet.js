@@ -1,0 +1,81 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  bg: {
+    flex: 1,
+    backgroundColor: '#222',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  box: {
+    backgroundColor: '#333',
+    padding: 24,
+    borderRadius: 12,
+    minWidth: 280,
+    elevation: 8,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.25,
+    shadowRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginVertical: 20,
+  },
+  label: {
+    fontSize: 16,
+    marginBottom: 5,
+    textAlign: 'center',
+    width: '100%',
+    fontWeight: 'bold',
+    color: '#fff',
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: '#fff',
+    padding: 10,
+    borderRadius: 6,
+    marginBottom: 15,
+    width: '100%',
+    backgroundColor: '#444',
+    textAlign: 'center',
+    color: '#fff',
+  },
+  opcao: {
+    backgroundColor: '#d32f2f',
+    paddingVertical: 12,
+    borderRadius: 6,
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 10,
+  },
+  opcaoTexto: {
+    fontSize: 16,
+    color: '#fff',
+    fontWeight: 'bold',
+  },
+  limparBtn: {
+    marginTop: 5,
+    backgroundColor: '#d32f2f',
+    padding: 10,
+    borderRadius: 6,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
+    marginBottom: 10,
+  },
+  limparTexto: {
+    color: '#fff',
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  resultado: {
+    fontSize: 18,
+    marginTop: 10,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color: '#fff',
+  },
+});
+
+export default styles;
